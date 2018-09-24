@@ -11,7 +11,7 @@
 /* HEADER */
 .header {
 	width: 100%;
-	height: 600px;
+	height: 820px;
 	background-color: #000;
 	background: url("../images/header.jpg");
 	background-size: 100%;
@@ -19,28 +19,32 @@
 	background-position: fixed;
 }
 .block-header {
-	width: 980px;
+	width: 940px;
 	margin: 0 auto;
-	padding-top: 30px;
+	padding-top: 50px;
 	text-align: center;
 }
 .block-header__logo{
+	position: relative;
+	margin-top: -8px;
+	margin-left: 4px;
 	float: left;
 }
 .block-header__h1 {
 	width: 100%;
 	text-transform: uppercase;
-	font-size: 3em;
+	font-size: 5em;
 	color: #fff;
 }
 .block-header__h2{
-	padding-top: 150px;
+	padding-top: 180px;
+	margin-bottom: -24px;
 	width: 100%;
 	text-transform: capitalize;
 	font-style: italic;
 	font-weight: normal;
 	font-family: serif;
-	font-size: 2em;
+	font-size: 3.1em;
 	color: #fff;
 }
 .block-header__button, .contact__button{
@@ -66,11 +70,11 @@
 }
 .menu__item {
 	display: inline-block;
-	padding-left: 20px;
+	padding-left: 35px;
 }
 .menu__link {
 	color: #fff;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 	text-transform: uppercase;
 	font-size: 13px;
 	text-decoration: none;
@@ -90,7 +94,7 @@
 	padding-top: 30px;
 	text-transform: uppercase;
 	font-family: Tahoma, Arial, sans-serif;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
 	color: #333;
 }
 .services__h3, .portfolio__h3, .about__h3, .team__h3 {
