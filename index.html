@@ -7,10 +7,10 @@
 		<link rel="stylesheet" href="css/all.css">
 	</head>
 	<body class="page">		
-		<header id="header">			
-			<div class="block-header">			
-				<img src="images/logo.png" alt="Golden" class="block-header__logo">			
-				<nav class="menu block-header__menu">
+		<header class="page__line page__line_black page__line_header">			
+			<div class="block">			
+				<img src="images/logo.png" alt="Golden" class="block__logo">			
+				<nav class="menu block__menu">
 					<ul class="menu__list">
 						<li class="menu__item"><a class="menu__link" href="">Home</a></li>
 						<li class="menu__item"><a class="menu__link" href="#services-id">Services</a></li>
@@ -19,36 +19,38 @@
 						<li class="menu__item"><a class="menu__link" href="#contact-id">Contact</a></li>
 					</ul>
 				</nav>
-				<h2 class="block-header__h2">Welcome to our studio!</h2>
-				<h1 class="block-header__h1">It's nice to meet you</h1>
-				<button class="block-header__button">Tell me more</button>
+				<h1 class="block__h1">Welcome to our studio!</h1>
+				<p class="block__p_welcome">It's nice to meet you</p>
+				<button class="block__button">Tell me more</button>
 			</div>		
 		</header>
 		
-		<div class="services">
-			<h2 class="services__h2" id="services-id">Services</h2>
-			<p><i>Proin iaculis purus consequat sem cure.</i></p>
-			<div class="services__list">
-				<img src="images/commerce.jpg" alt="E-Commerce" class="services__img">
-				<h3 class="services__h3">E-Commerce</h3>
-				<p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus odio in tincidunt.</p>
-			</div>
-			<div class="services__list">
-				<img src="images/responsive.jpg" alt="Responsive Web" class="services__img">
-				<h3 class="services__h3">Responsive Web</h3>
-				<p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus odio in tincidunt.</p>
-			</div>
-			<div class="services__list">
-				<img src="images/security.jpg" alt="Web Security" class="services__img">
-				<h3 class="services__h3">Web Security</h3>
-				<p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus odio in tincidunt.</p>
-			</div>
-		</div>
+		<section class="page__line page__line_white">
+            <div class="block">
+			     <h2 class="block__h2" id="services-id">Services</h2>
+			     <p><i>Proin iaculis purus consequat sem cure.</i></p>
+			     <div class="services__list">
+				    <img src="images/commerce.jpg" alt="E-Commerce" class="services__img">
+				    <h3 class="services__h3">E-Commerce</h3>
+				    <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus odio in tincidunt.</p>
+			     </div>
+			     <div class="services__list">
+				    <img src="images/responsive.jpg" alt="Responsive Web" class="services__img">
+				    <h3 class="services__h3">Responsive Web</h3>
+				    <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus odio in tincidunt.</p>
+			     </div>
+			     <div class="services__list">
+				    <img src="images/security.jpg" alt="Web Security" class="services__img">
+				    <h3 class="services__h3">Web Security</h3>
+				    <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus odio in tincidunt.</p>
+			     </div>
+		      </div>
+        </section>
 		
-		<div class="block-portfolio" id="portfolio-id">
+		<section class="page__line page__line_gray block-portfolio" id="portfolio-id">
 			<h2 class="portfolio__h2">Our portfolio</h2>
 			<p><i>Proin iaculis purus consequat sem cure.</i></p>
-			<div class="portfolio">
+			<div class="block">
 				
 				<div class="portfolio__list">
 					<img src="images/branding.jpg" alt="branding" class="portfolio__img">
