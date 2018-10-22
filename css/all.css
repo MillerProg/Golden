@@ -16,7 +16,7 @@ html { box-sizing: border-box; }
     width: 100%;
 }
 .page__line_black {
-    background-color: #000;
+    background-color: #333;
     color: #fff;
 }
 .page__line_white {
@@ -32,8 +32,7 @@ html { box-sizing: border-box; }
 	margin: 0 auto;
 	padding: 20px 0 20px 0;
 	text-align: center;
-    align-self: center;
-   
+    align-self: center;   
 }
 .block_inline { display: inline-block;}
 .block__h2{
@@ -44,6 +43,7 @@ html { box-sizing: border-box; }
 	letter-spacing: 1px;
 	color: #333;
 }
+.block__h2_white {color: #fff;}
 .block__h3 {	
     margin: 10px 0 10px 0;
 	font-size: 1.1em;
@@ -73,6 +73,43 @@ html { box-sizing: border-box; }
     background-color: bisque;
     color: coral;
 }
+.block__img {
+    margin: 0 auto;
+}
+.block__social {
+    margin: 20px 0 20px 0;
+}
+.img_services {
+	width: 46px;
+	height: 46px;
+	padding: 10px;
+	border: 2px solid #ffcc33;
+	border-radius: 50px;
+}
+.img_services:hover {
+    border-color: bisque;
+}
+.img_porfolio {
+	width: 100%;
+	margin: 0 auto;
+	height: 300px;
+}
+.img_team {
+    width: 200px;
+	height: 200px;
+	border: 5px solid #fff;
+	border-radius: 100px;
+}
+.img_clients {
+	height: 30px;
+	margin: 20px;
+}
+.img_social {
+	padding: 3px;
+	border: 2px solid #333;
+	border-radius: 20px;
+}
+
 
 /* HEADER */
 .page__line_header {
@@ -121,21 +158,6 @@ html { box-sizing: border-box; }
     border-bottom: 2px solid #ffcc33;
 }
 
-/* SERVICES */
-.services__img {
-	width: 46px;
-	height: 46px;
-	padding: 10px;
-	border: 2px solid #ffcc33;
-	border-radius: 50px;
-}
-
-/* PORTFOLIO */
-.portfolio__img {
-	width: 100%;
-	margin: 0 auto;
-	height: 300px;
-}
 
 /* ABOUT US */
 .list_left {
@@ -175,49 +197,6 @@ html { box-sizing: border-box; }
 	background-color: #ffcc33;
 	color: #fff;
 }
-
-/* TEAM */
-.team__img {
-	width: 200px;
-	height: 200px;
-	border: 5px solid #fff;
-	border-radius: 100px;
-}
-.team__social, .footer__social {
-	margin: 0 auto;
-}
-.team__social__img {
-	padding: 3px;
-	border: 2px solid #333;
-	border-radius: 20px;
-}
-/* CLIENTS */
-.clients, .contact, .footer {
-	width: 990px;
-	margin: 0 auto;
-	padding: 30px;
-	text-align: center;	
-	font-family: serif;	
-}
-.clients__img {
-	height: 30px;
-	margin: 20px;
-}
-/*CONTACT US*/
-.block-contact {
-	width: 100%;
-	height: 520px;
-	background-color: #333;
-	background: url("../images/contacts.jpg");
-	color: #999;
-}
-.contact__h2 {
-	padding-top: 30px;
-	text-transform: uppercase;
-	font-family: Tahoma, Arial, sans-serif;
-	letter-spacing: 1px;
-	color: #fff;
-}
 .contact__input{
 	width: 450px;
 	height: 50px;
@@ -235,7 +214,4 @@ html { box-sizing: border-box; }
 	border: none;
 	border-radius: 5px;
 	color: #ccc;
-}
-.contact__button {
-	margin-top: 20px;
 }
