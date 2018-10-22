@@ -102,7 +102,7 @@ html { box-sizing: border-box; }
 	height: 30px;
 	margin: 20px;
 }
-.img_porfolio:hover, .img_services:hover, .img_team:hover, .img_clients:hover {
+.img_porfolio:hover, .img_services:hover, .img_team:hover, .img_clients:hover, .img_about:hover {
     opacity: 0.7;
 }
 .img_social {
@@ -164,43 +164,32 @@ html { box-sizing: border-box; }
 
 
 /* ABOUT US */
-.list_left {
-    text-align: right;
-}
-.list_right {
-    text-align: left;
-}
-.about__img {
+.list_left { text-align: right;}
+.list_right { text-align: left;}
+.img_about {
 	margin: 0 auto;
-	padding: 0;
-	width: 170px;
-	height: 170px;
+	width: 200px;
+	height: 200px;
 	border: 5px solid #eee;
 	border-radius: 100px;
-	float: left;
-	position: relative;
 	z-index: 1;
 }
-.block__vline {	
-	width: 468px;
-	height: 50px;
-	border-right: 4px solid #eee;
+.block__vline {
+    margin-top: -10px;
+    margin-bottom: -60px;
+	width: 470px;
+	height: 150px;
+	border-right: 3px solid #eee;
+    z-index: 0;
 }
-.about__story {
-	margin: 0 auto;
-	padding-top: 15px;
+.button_about {
 	width: 160px;
-	height: 140px;
+	height: 160px;
 	border: 5px solid #eee;
 	border-radius: 80px;
-	text-transform: uppercase;
-	text-shadow: 2px 2px 6px #ff9900;
-	font-family: Tahoma, Arial, sans-serif;
-	font-weight: bold;
-	font-size: 1.2em;
-	background-color: #ffcc33;
-	color: #fff;
 }
+
+/*CONTACTS*/
 .contact__input{
 	width: 450px;
 	height: 50px;
