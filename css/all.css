@@ -86,13 +86,11 @@ html { box-sizing: border-box; }
 	border: 2px solid #ffcc33;
 	border-radius: 50px;
 }
-.img_services:hover {
-    border-color: bisque;
-}
 .img_porfolio {
 	width: 100%;
 	margin: 0 auto;
 	height: 300px;
+    opacity: 1;
 }
 .img_team {
     width: 200px;
@@ -104,10 +102,16 @@ html { box-sizing: border-box; }
 	height: 30px;
 	margin: 20px;
 }
+.img_porfolio:hover, .img_services:hover, .img_team:hover, .img_clients:hover {
+    opacity: 0.7;
+}
 .img_social {
 	padding: 3px;
 	border: 2px solid #333;
 	border-radius: 20px;
+}
+.img_social:hover {
+    border-color: #ffcc33;
 }
 
 
